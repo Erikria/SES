@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Python" height="800" width="800" version="1.1" viewBox="0 0 800 800">
+<g style="fill:#005cc1; fill-opacity:1; stroke:#707070; stroke-width:16.25110435; stroke-linejoin:round; stroke-miterlimit:4; stroke-dasharray:32.50220765, 16.25110382; stroke-dashoffset:0; stroke-opacity:1" transform="matrix(-0.8,0,0,0.8,960,-160)" id="g4518">
+<circle style="fill:#005cc1; fill-opacity:1; stroke:none; stroke-width:16.25110435; stroke-linejoin:round; stroke-miterlimit:4; stroke-dasharray:32.50220765, 16.25110382; stroke-dashoffset:0; stroke-opacity:1" id="circle6" cx="700" cy="700" r="450" />
+</g>
+<g transform="matrix(0.875,0,0,0.875,-125,-125)" id="g4525">
+<g id="g4512" transform="matrix(1.8746439,0,0,1.8815359,-496.19007,-866.9602)" style="fill:#ffffff; fill-opacity:1">
+<path d="m 649.85214,630.84643 c -47.05167,0 -85.34954,38.29787 -85.34954,84.25531 v 44.86322 h -44.86322 c -45.95745,0 -84.25532,37.20366 -84.25532,84.25533 0,47.05167 38.29787,84.25532 84.25532,84.25532 47.05167,0 85.34954,-37.20365 85.34954,-84.25532 v -44.86322 h 44.86322 c 45.95745,0 84.25532,-37.20365 84.25532,-84.25533 0,-45.95744 -38.29787,-84.25531 -84.25532,-84.25531 z m 0,39.39209 c 24.07295,0 43.769,20.79027 43.769,44.86322 0,25.16718 -19.69605,44.86322 -43.769,44.86322 h -1.09422 -37.20365 c -6.56551,0 -6.56535,-0.0637 -6.56535,-6.56534 v -38.29788 c 0,-24.07295 19.69605,-44.86322 44.86322,-44.86322 z M 519.63938,799.35707 h 38.29787 c 6.46129,0 6.56535,0.0637 6.56535,6.56534 v 38.29788 c 0,25.16717 -19.69605,44.86322 -44.86322,44.86322 -24.07295,0 -44.86322,-19.69605 -44.86322,-44.86322 0,-24.07295 20.79027,-44.86322 44.86322,-44.86322 z" id="path4-6" style="fill:#ffffff; fill-opacity:1; stroke-width:10.9422493" />
+</g>
+<circle style="fill:#ffffff; fill-opacity:1; stroke:none; stroke-width:15.57700825; stroke-miterlimit:4; stroke-dasharray:none; stroke-opacity:1" id="path4502" cx="722.85712" cy="477.14285" r="31.428572" />
+<circle style="fill:#ffffff; fill-opacity:1; stroke:none; stroke-width:15.57700825; stroke-miterlimit:4; stroke-dasharray:none; stroke-opacity:1" id="path4502-3" cx="477.14285" cy="722.85712" r="31.428572" />
+</g>
+</svg>

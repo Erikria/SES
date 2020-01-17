@@ -1,0 +1,92 @@
+.\"This document is the Cheatsheet of Bourne Again Shell Program.
+.TH "Bash Cheatsheet" "1" "@Erikria+"
+.SH "LaTeX to HTML Converter"
+.TP
+\fB1.\fP
+Write a LaTeX File in the slightly modified syntax shown in \fITex.htm\fP, which is located at directory \fITEX\fP.
+.TP
+\fB2.\fP
+Find \fITXML.vim\fP in directory \fITEX\fP. Rename it to \fItxml.vim\fP and move it into the plugin directory of Vim.
+.TP
+\fB3.\fP
+Run the Perl script in directory \fITEX\fP, which will created a XML file.
+.TP
+\fB4.\fP
+Open the XML file with Vim, input ':' to enter command mode and excute \fItxml.vim\fP.
+.TP
+\fB5.\fP
+Now, the LaTeX file are convert to HTML.
+.br
+
+.SH "TeXLive Manager"
+.TP
+\fBtlmgr list --only-installed\fP
+List installed LaTeX packages
+
+.TP
+\fBtlmgr repository set \fI$URL\fP\fP
+Set LaTeX packges Repository
+.TP
+\fBtlmgr update --list | --all\fP
+Show available update or update all
+.br
+
+.SH "Connect Wi-Fi via Command-line"
+.TP
+\fB1.\fP ip link set wlan0 up;
+.TP
+\fB2.\fP wpa_passphrase;
+.TP
+\fB3.\fP iw wlan0 link;
+.TP
+\fB4.\fP wpa_supplicant -B -D wext -i wlan0 -c /etc/wpa_supplicant.conf;
+.TP
+\fB5.\fP dhclient wlan0;
+.TP
+\fB6.\fP ip route show;
+
+.SH "Building Debian Packages"
+.SS "Debian Control File"
+.br
+	\fBPackage\fP: Vimb
+.br
+	\fBSource\fP: Vimb
+.br
+	\fBVersion\fP: 0.1.5
+.br
+	\fBArchitecture\fP: amd64
+.br
+	\fBMaintainer\fP: Balto <www.vim.org>
+.br
+	\fBInstalled-Size\fP: 1000 \fB(Unit: KB)\fP
+.br
+	\fBDepends\fP: libc6, libwebkitgtk
+.br
+	\fBSection\fP: Internet
+.br
+	\fBPriority\fP: optional
+.br
+	\fBDescription\fP: A spreadsheet tool
+.br
+
+.SS "Debian Package Structure"
+.br
+	\fB<Package>\fP: The name of the debian package
+.br
+	\fB<Binary>\fP: The binary excutable files
+.br
+	\fB<shortcut>\fP: The shortcut file in the X windows system
+.br
+
+.SS "Debian Package Structure"
+.br
+	<Package>/DEBIAN/control
+.br
+		|
+.br
+		|-----/opt/<Name>/<Binary>
+.br
+		|
+.br
+		`-----/usr/share/applications/<Shortcut>
+.br

@@ -1,0 +1,47 @@
+Common Programming Languages:
+	#(√) Used in Erikria.
+	#(*) Rare Used in Erikria.
+	- Web Page:
+		- HTML (√)
+		- CSS (√)
+		- Javascript (√)
+		- PHP
+		- Vue
+	- Compile:
+		- Makefile (√)
+		- C (√)
+		- C++ (*)
+		- Objective C
+		- Bison (*)
+		- Assembly (*)
+		- Pascal
+	- Shell:
+		- Bash (√)
+		- Batchfile (*)
+	- Script:
+		- Vim Script (√)
+		- Perl (√)
+		- Python (√)
+		- Ruby
+		- Lua (*)
+		- BASIC
+	- Lisp:
+		- Scheme
+		- Clojure
+		- Racket
+		- Emacs Lisp
+		- Common Lisp
+	- Runtime:
+		- Java (*)
+		- Smali (*)
+		- C#
+	- Database:
+		- SQLite (√)
+		- PostgreSQL
+		- MariaDB
+		- MongoDB
+	- Neo:
+		- Go (*)
+		- Rust
+		- Swift
+		- Kotlin

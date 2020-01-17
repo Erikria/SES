@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Erikrian Program</title>
+
+<style>
+	body {background-color: #2ddd77; margin: 5%; text-align: justify}
+	h1, h2, h3, h4, h5, h6 {font-size: 200%; font-weight: bold; text-align: center}
+	table, th, td {font-family: sans-serif; font-size: 120%; margin: auto; text-align: center}
+	textarea.L {background-color: transparent; border-radius: 25px; border-width: 0.1em; font-family: monospace; font-size: 120%; height: 480px; text-align: justify; width: 600px}
+	textarea.R {background-color: transparent; border-radius: 25px; border-width: 0.1em; font-family: monospace; font-size: 120%; height: 480px; text-align: justify; width: 600px}
+</style>
+
+</head>
+<body>
+<h1>Cyrillic Converter</h1>
+<div style="font-size: 150%; font-family: monospace; text-align: center">Нет дома лучше своего, ведь свой дом всего родней!</div>
+<br />
+
+<form name="transcription">
+<table>
+<tr>
+	<th>Latin</th>
+	<th>Cyrillic</th>
+</tr>
+<tr>
+<td>
+	<script src="Cyrillic.js"></script>
+	<textarea class="L" id="bar1" name="text1" onKeyUp="conv()"></textarea>
+</td>
+<td>
+	<textarea class="R" id="bar2" name="text2"></textarea>
+</td>
+</tr>
+
+<tr>
+<td>
+	<script>
+		function copy1(){
+			var v=document.getElementById("bar1");
+			v.select();
+			document.execCommand("Copy")
+		}
+
+		function copy2(){
+			var v=document.getElementById("bar2");
+			v.select();
+			document.execCommand("Copy")
+		}
+	</script>
+	<input type="button" class="bf" onClick="copy1()" value="COPY"> 
+	<input type="button" class="bf" onClick="reset()" value="CLEAR">
+</td>
+<td>
+	<input type="button" class="bf" onClick="copy2()" value="COPY">
+	<input type="button" class="bf" onClick="reset()" value="CLEAR">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

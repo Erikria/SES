@@ -1,0 +1,109 @@
+/*Cree.css for Mobile*/
+
+*.button {
+	background-color: #004080;
+	border: 0.2em #003050 outset;
+	font-size: 300%;
+	text-align: center;
+	white-space: nowrap;
+}
+
+a:link {
+	color: #ffffff;
+	font-family: monospace;
+	text-decoration: none;
+}
+
+a:active {
+	color: #338811;
+	font-family: monospace;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #66ff66;
+	font-family: monospace;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ffffee;
+	font-family: monospace;
+	text-decoration: none;
+}
+
+body {
+	background-color: #004490;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+button.A1 {
+	background-color: #004080;
+	border: 0.1em #003050 outset;
+	font-size: 350%;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: #ffffff;
+	font-size: 300%;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+div.A1 {
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+
+img.A1 {
+	border-style: outset;
+	border-width: 0.4em;
+	text-align: center;
+	width: 100%;
+}
+
+input {
+	background-color: transparent;
+	border: 0.4em #003050 inset;
+	color: #ffffff;
+	font-size: 250%;
+}
+
+fieldset {
+	border: 1em #003050 outset;
+	text-align: center;
+	vertical-align: middle;
+}
+
+legend {
+	border: 0.2em #003050 outset;
+	color: #ffffff;
+	font-size: 400%;
+	font-family: monospace;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+}
+
+table.sites {
+	border-collapse: collapse;
+	color: #ffffff;
+	font-size: 320%;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+
+th {
+	background: #ffffff;
+	color: #004080;
+	font-family: monospace;
+	font-size: 120%;
+	font-weight: bold;
+	vertical-align: center;
+}

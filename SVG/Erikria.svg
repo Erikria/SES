@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000" height="1000" width="1500" id="Erikria" version="1.1" >
+<g style="display:inline" id="layer_1" transform="translate(-0.09613037)">
+<rect y="0" x="0" height="1000" width="1500" id="rect_1" style="fill:#ffffff" />
+</g>
+<g style="display:inline" id="layer_2">
+<path id="path1" style="fill:#004590" d="M 0,500 V 0 h 50 50 v 500 500 H 50 0 Z m 200,0 V 0 h 550 550 v 500 500 H 750 200 Z m 1200,0 V 0 h 50 50 v 500 500 h -50 -50 z" />
+</g>
+<g id="g7" transform="translate(0.09606934)">
+<rect id="rect_2" style="fill:#ffffff" width="100" height="600" x="700" y="200" />
+</g>
+<g id="layer_3" transform="translate(0,9.6989555)">
+<rect id="rect_3" style="fill:#ffffff" width="100" height="600" x="749.51703" y="-704.20203" transform="rotate(60)" />
+</g>
+<g id="layer_4" transform="translate(0,9.6990223)">
+<rect id="rect_4" style="fill:#ffffff" width="100" height="600" x="-99.516998" y="594.836" transform="rotate(-60)" />
+</g>
+</svg> 

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8" />
+	<title>Standard Document</title>
+	<link href="Doc.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="tab-interval: 21pt">
+	<div class="section0">
+	<!--Title-->
+	<h1>Standard</h1>
+	<div class="author">Erikria</div>
+	<p>
+	This document is the README file of "TEX.pl", which is used to convert LaTeX to HTML. The standard LaTeX and HTML file are listed below.
+	</p>
+	<!--Subtitle-->
+	<h2>Standard File</h2>
+	<!--Subsubtitle-->
+	<h3>LaTeX</h3>
+
+	<pre>
+%!TEX TS-program = xelatex	
+\documentclass[a4paper, 12pt]{article}
+\usepackage{fontspec, geometry, indentfirst, xunicode, xltxtra}
+\geometry{left=70pt, right=70pt, top=70pt, bottom=70pt}
+\linespread{1.3}
+\setlength{\parindent}{2em}
+\newcommand{\chn}{
+	\setmainfont[BoldFont=SimHei]{SimSun}
+	\XeTeXlinebreaklocale "zh"
+	\XeTeXlinebreakskip = 0pt plus 1pt
+}
+%Header Part
+
+\begin{document}
+\title{Test Document}
+\author{Ren Csergan}
+\date{}
+\maketitle
+
+\section{Madarin}
+{
+\chn
+
+一二三亖㐅。
+}
+
+%Allo!
+
+\section{English}
+
+One, two, three, four.
+\end{document}
+	</pre>
+
+	<h3>HTML</h3>
+	<p>
+		<b>This file itself is the strandard HTML file for WPS.</b>
+	</p>
+	</div>
+</body>
+</html>

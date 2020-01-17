@@ -1,0 +1,40 @@
+"$CONFIG/nvim/sava.vim
+echo "This is SVA program!"
+%s/[Aa][Uu]/𐑬/ge
+%s/[Oo][Uu]/𐑶/ge
+%s/[Ee][Aa]/𐑾/ge
+%s/[Ee][Uu]/𐑴/ge
+%s/[Cc][Hh]/𐑙/ge
+%s/[Ss][Hh]/𐑖/ge
+%s/[Tt][Hh]/𐑔/ge
+%s/[Ww][Hh]/𐑣𐑝/ge
+%s/[Aa][Aa]/𐑲/ge
+%s/[Ee][Ee]/𐑱/ge
+%s/[Ii][Ii]/𐑰/ge
+%s/[Oo][Oo]/𐑥/ge
+%s/[Uu[Uu]/𐑯/ge
+%s/[Aa]/𐑨/ge
+%s/[Bb]/𐑚/ge
+%s/[Cc]/𐑒/ge
+%s/[Dd]/𐑛/ge
+%s/[Ee]/𐑧/ge
+%s/[Ff]/𐑓/ge
+%s/[Gg]/𐑜/ge
+%s/[Hh]/𐑣/ge
+%s/[Ii]/𐑦/ge
+%s/[Jj]/𐑠/ge
+%s/[Kk]/𐑞/ge
+%s/[Ll]/𐑤/ge
+%s/[Mm]/𐑫/ge
+%s/[Nn]/𐑵/ge
+%s/[Oo]/𐑩/ge
+%s/[Pp]/𐑐/ge
+%s/[Rr]/𐑮/ge
+%s/[Ss]/𐑕/ge
+%s/[Tt]/𐑑/ge
+%s/[Uu]/𐑪/ge
+%s/[Ww]/𐑝/ge
+%s/[Yy]/𐑳/ge
+%s/[Zz]/𐑟/ge
+%s/|//ge
+echo Process Finnished!
