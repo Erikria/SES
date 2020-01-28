@@ -82,7 +82,7 @@ any file contains contents from "Cree.htm" will be licensed under GPL.
 <tr>
 <td>VIM</td>
 <td>Directory for configure files</td>
-<td>15</td>
+<td>16</td>
 </tr>
 </table>
 </body>

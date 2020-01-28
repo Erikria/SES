@@ -9,6 +9,7 @@ esac
 
 #Don't put duplicate lines or lines starting with space in the history.
 #See bash(1) for more options
+HISTFILE="$HOME/.cache/bashlogs"
 HISTCONTROL=ignoreboth
 HISTSIZE=1000
 HISTFILESIZE=2000
@@ -84,9 +85,11 @@ fi
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 #export PATH=$PATH:$NeoPATH
-export GOPATH="$HOME/.local/golang/local"
+export GO111MODULE=on
+export GOPATH="$HOME/.local/golang/lib"
 export GOPROXY="https://goproxy.io"
 export GOROOT="$HOME/.local/golang"
+
 export PERLLIB="$HOME/.local/share/perl"
 export PERL5LIB="$HOME/.local/share/perl"
 
@@ -138,9 +141,16 @@ alias when='clock -cs'
 alias cld='dialog --title "Calenadar" --calendar "" 0 0'
 alias cln='time . ~/.config/Purge.sh'
 alias csv='column -t -s ","'
+alias ifcfg='/sbin/ifconfig'
+alias iwcfg='/sbin/iwconfig'
 alias power='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
-alias wttr='curl wttr.in'
 alias tika='java -jar /opt/APP/Cargo/Tika.jar'
+alias wttr='curl wttr.in'
+
+#Security Commands
+RBS=$HOME/.local/share/vifm/Trash
+alias rm="mv -t ${RBS}"
+alias eliminate='/bin/rm -I'
 
 #You may put all your additions into a separate file like "~/.bash_aliases", instead of adding them here directly. See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
